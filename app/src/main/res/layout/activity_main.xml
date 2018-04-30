@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="comn.example.apurva.flashlight.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FlashLight App"
+        android:textSize="35dp"
+        android:background="@color/colorTitle"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/offbtn" />
+
+
+
+</RelativeLayout>
